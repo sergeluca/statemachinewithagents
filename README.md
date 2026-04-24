@@ -1,4 +1,6 @@
-# state machine with agents
+# Implementing state machines with Copilot Studio autonomous agents
+
+
 Description of a poc of a state machine with Power Automate and Copilot Studio agent
 
 ## State Machine in Power Automate

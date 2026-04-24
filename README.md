@@ -33,21 +33,7 @@ The approval logic may evolve over time. Therefore, the implementation should be
 
 ### State Machine Diagram
 
-```mermaid
-flowchart TD
-    A[User submits new content] --> B[Advisors validate content]
-
-    B -->|Approved| C[Secretariat validates style]
-    B -->|Rejected| D[User updates content]
-    D --> B
-
-    C -->|Approved| E[Boss authorizes publication]
-    C -->|Rejected| F[User updates style]
-    F --> C
-
-    E -->|Approved| G[Content is published]
-    E -->|Rejected| H[Content is not published]
-
+<img width="824" height="525" alt="image" src="https://github.com/user-attachments/assets/9cc5791e-60d4-4cce-bdb8-44bd8f3f5b0e" />
 
 
 ### Patterns

@@ -23,6 +23,11 @@ A government organization was responsible for publishing medical documentation f
 4. The **Boss** performs the final review:
    - If **approved**, the document is published.
    - If **rejected**, the document is not published.
+  
+### Design Consideration
+
+The approval logic may evolve over time. Therefore, the implementation should be designed to **minimize the impact of such changes**.
+
 
 ### State Machine Diagram
 

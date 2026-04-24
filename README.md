@@ -74,6 +74,9 @@ Boss validates the publication:
 
 Do not transition directly from Advisors to "Boss authorizes publication"  
 
+### Architecture
+
+
 
 
 

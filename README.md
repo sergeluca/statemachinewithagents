@@ -38,10 +38,14 @@ The approval logic may evolve over time. Therefore, the implementation should be
 
 ### Pattern and implementation
 
-##Pattern
+
+Our intuition is that an LLM should be able to orchestrate which state should be executed, and that an automous agent would be the host for that intuition.
 The idea is to create an autonomous agent with Copilot Studio and Power Automate.
 The pattern we are proposing and testing is very simple : each state of the state machine is mapped to a topic in a Copilot Studio agent as illustrated here:
 
 <img width="1099" height="629" alt="image" src="https://github.com/user-attachments/assets/808e3d36-e7ad-45e9-b5a6-45b31691a465" />
+
+Since we a creating an agent, we must feed this agent with some instructions describing the state machine:
+
 
 

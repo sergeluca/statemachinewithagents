@@ -31,7 +31,7 @@ For a better understanding, take a look at the state diagram in the next section
 The approval logic may evolve over time. Therefore, the implementation should be designed to **minimize the impact of such changes**.
 
 
-### State Machine Diagram 
+### State Machine Diagram
 
 ```mermaid
 flowchart TD
@@ -50,5 +50,4 @@ flowchart TD
 
 
 
-### Pattern
 

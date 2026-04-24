@@ -1,7 +1,8 @@
 # Implementing state machines with Copilot Studio autonomous agents
 
 
-Description of a poc of a state machine with Power Automate and Copilot Studio agent
+Description of a poc of a state machine with Power Automate and Copilot Studio agent.
+The code can be downloaded and tested
 
 ## State Machine in Power Automate
 

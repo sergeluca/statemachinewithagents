@@ -13,6 +13,8 @@ A government organization was responsible for publishing medical documentation f
 
 ### Workflow Description
 
+For a better understanding, take a look at the state diagram in the next section.
+
 1. A user submits a new document.
 2. The content is reviewed by a group of experts called **Advisors**:
    - If **rejected**, the document is returned to the user for updates.

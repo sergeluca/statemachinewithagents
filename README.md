@@ -54,5 +54,5 @@ How can AI, using Microsoft Power Platform tools, be leveraged to streamline and
 
 Starting from a blank page, our intuition led us to design an autonomous agent using Copilot Studio.
 
-##Pattern
+### Pattern
 

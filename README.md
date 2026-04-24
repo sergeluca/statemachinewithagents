@@ -47,5 +47,35 @@ The pattern we are proposing and testing is very simple : each state of the stat
 
 Since we a creating an agent, we must feed this agent with some instructions describing the state machine:
 
+User has submitted new content:
+
+- Transition to: "Waiting for Advisors to validate the content"
+- The identification of the record is passed as a parameter named 'RecordID' that will be used in many topics. This RecordID must be carefully saved to be reused across the agent.
+
+Advisors validate content:
+- If approved by Advisors: Transition to "Waiting for Secretariat to validate the style"
+- If rejected by Advisors: Transition to "Waiting for User to update the content"
+
+User updates the content:
+- Transition back to "Waiting for Advisors to validate the content"
+
+Secretariat validates style:
+- If approved by Secretariat: Transition to "Waiting for Boss to validate publication"
+- If rejected by Secretariat: Transition to "Waiting for User to update the style"
+
+User updates the style:
+- Transition back to "Waiting for Secretariat to validate the style"
+
+Boss validates the publication:
+- If approved by Boss: Transition to Content is published
+- If rejected by Boss: Transition to "Waiting for User to update the content"; in this specific case only the previous approvals by Advisors, Secretariat and Boss are not valid anymore.
+
+
+
+Do not transition directly from Advisors to "Boss authorizes publication"  
+
+
+
+
 
 

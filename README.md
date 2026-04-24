@@ -95,7 +95,10 @@ Based on these messages, the orchestrator decides which topic to execute:
 
 
 
-Some to
+Some topics will start an approval, and for this we have created an generic approval flow:
+
+<img width="1887" height="1064" alt="image" src="https://github.com/user-attachments/assets/3006919b-121f-4e0e-9979-58d4a8213b3d" />
+
 
 
 

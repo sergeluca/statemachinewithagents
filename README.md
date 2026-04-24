@@ -48,11 +48,7 @@ flowchart TD
     E -->|Approved| G[Content is published]
     E -->|Rejected| H[Content is not published]
 
-### Implementation and Pattern
 
-How can AI, using Microsoft Power Platform tools, be leveraged to streamline and improve this review process?
-
-Starting from a blank page, our intuition led us to design an autonomous agent using Copilot Studio.
 
 ### Pattern
 

@@ -7,7 +7,7 @@ State machines are difficult to implement in Power Automate because the platform
 
 To illustrate a state machine, consider the following real-world example.
 
-### Use Case (2028)
+### Use Case (2018)
 
 A government organization was responsible for publishing medical documentation for citizens. Due to the sensitive nature of the content, each document had to pass through a strict validation workflow.
 

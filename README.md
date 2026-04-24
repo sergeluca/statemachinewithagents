@@ -48,7 +48,7 @@ flowchart TD
     E -->|Approved| G[Content is published]
     E -->|Rejected| H[Content is not published]
 
-### Implementation & Pattern
+### Implementation and Pattern
 
 How can AI, using Microsoft Power Platform tools, be leveraged to streamline and improve this review process?
 

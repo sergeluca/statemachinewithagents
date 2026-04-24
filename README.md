@@ -76,6 +76,26 @@ Do not transition directly from Advisors to "Boss authorizes publication"
 
 ### Architecture
 
+As illustrated below, trigger flows send messages to the orchestrator.
+
+These messages can represent the following events:
+
+- New content has been created
+- Advisors have approved or rejected the content
+- Secretariat has approved or rejected the style
+- Boss has approved or rejected the publication
+- The user has updated the content or style
+
+
+<img width="1520" height="1026" alt="image" src="https://github.com/user-attachments/assets/0bd1d8f8-d963-409b-978a-ed9cf530775c" />
+
+Based on these messages, the orchestrator decides which topic to execute:
+
+<img width="1878" height="1059" alt="image" src="https://github.com/user-attachments/assets/42350e01-fd18-4825-a66c-24125384d384" />
+
+
+
+Some to
 
 
 

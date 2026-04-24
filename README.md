@@ -1,4 +1,4 @@
-# statemachinewithagents
+# state machine with agents
 Description of a poc of a state machine with Power Automate and Copilot Studio agent
 
 ## State Machine in Power Automate

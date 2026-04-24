@@ -38,6 +38,7 @@ The approval logic may evolve over time. Therefore, the implementation should be
 
 ### Pattern and implementation
 
+##Pattern
 The idea is to create an autonomous agent with Copilot Studio and Power Automate.
 The pattern we are proposing and testing is very simple : each state of the state machine is mapped to a topic in a Copilot Studio agent as illustrated here:
 
